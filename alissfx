@@ -1,0 +1,103 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Alissfx's reborn", HidePremium = false, IntroText = "Alissfx's reborn",  SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "🚀Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
+
+Tab:AddButton({
+	Name = "MM2",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "KAT",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+  	end    
+})
+Tab:AddButton({
+	Name = "The Strongest Battlegrounds",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Strongest/main/Battlegrounds77%22"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Evade",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Evade/main.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Combat Warriors",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Ragdoll Engine",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/martinelcrac/cryptonichub/main/Ragdollengine.lua'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Blox Fruits",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Padupo/scrnohop/main/FreeFrai'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Brookhaven",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ChillSoftworks/Houseg/main/Housegui"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Pls Donate",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/animooon"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Meepcity",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/synolope/meepcracked/main/loader.lua'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Arsenal",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/arsenal4.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "DaHood",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Rainbow Friends",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
+  	end    
+})
+Tab:AddButton({
+	Name = "Adopt Me",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "My Discord Server!",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
