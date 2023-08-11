@@ -1,10 +1,10 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Alissfx's reborn", HidePremium = false, IntroText = "Alissfx's reborn",  SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Alissfx's HUB", HidePremium = false, IntroText = "Alissfx's HUB",  SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
-	Name = "🚀Scripts",
-	Icon = "rbxassetid://4483345998",
+	Name = "Games",
+	Icon = "rbxassetid://7733799795",
 	PremiumOnly = false
 })
 
@@ -15,7 +15,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "MM2",
 	Callback = function()
-        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2_V2"))()
   	end    
 })
 Tab:AddButton({
@@ -25,9 +25,9 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
-	Name = "The Strongest Battlegrounds",
+	Name = "The Strongest Battlegrounds(KEY)",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Strongest/main/Battlegrounds77%22"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/SaitamaBattlegrounds.lua"))()
   	end    
 })
 Tab:AddButton({
@@ -36,10 +36,11 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Evade/main.lua"))()
   	end    
 })
+
 Tab:AddButton({
 	Name = "Combat Warriors",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jan5106/uwuware_final/main/main.lua", true))()
   	end    
 })
 Tab:AddButton({
@@ -64,12 +65,56 @@ Tab:AddButton({
 	Name = "Pls Donate",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/animooon"))()
-  	end    
+  	end
+})
+Tab:AddButton({
+	Name = "ZO ぞ SAMURAI",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/animooon"))()
+  	end
+})
+      Tab:AddButton({
+        Name = "Breaking Point",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/animooon"))()
+          end 
+           
+          
+})
+Tab:AddButton({
+    Name = "Arm Wrestle  ",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tankz3502/ProjectTesla/main/wercT.lua"))();
+      end 
+})
+Tab:AddButton({
+    Name = "nico's nextbots  ",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://slowpihax.xyz/Hub/Script.lua"))()
+      end 
 })
 Tab:AddButton({
 	Name = "Meepcity",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/synolope/meepcracked/main/loader.lua'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "3008[2.72]",
+	Callback = function()
+        loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+  	end    
+})
+Tab:AddButton({
+	Name = "BIG Paintball",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AndrewDarkyy/NOWAY/main/darkyyware.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Counter Blox",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/fliskScript/jaran.vip/main/free.lua"))()
   	end    
 })
 Tab:AddButton({
@@ -79,11 +124,197 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
+	Name = "Ragdoll Universe",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/yurkyu/Illumina/main/Loader.lua"))()
+
+  	end    
+    
+    
+})
+Tab:AddButton({
 	Name = "DaHood",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
   	end    
 })
+Tab:AddButton({
+	Name = "Slap Battles",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomScriptr3/gggggggg/main/lolez.txt", true))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Tower of Hell",
+	Callback = function()
+        loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Ninja Legends",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TheScriptPirate/ProjectOmega/main/ProjectOmegaLoader.lua"))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Jailbreak",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLEduard/Eduard-s-Hub-V2-UI-Revamp-/main/loadstring",true))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Legends Of Speed",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/StellarHubX/Main/main/source'))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Motorcyle Mayhem",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/PlanetHubX/MotorcycleMayhemmm/main/source'))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Super League Soccer",
+	Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/SuperLeagueSoccer"))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Undertale: Timeline Collapse",
+	Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Nounours14/Exploits/main/AutofarmCollapse.lua"))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Sword factory X!",
+	Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/beliveri12/BeluseHub/main/Loader.lua', true))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Rebirth Champions X",
+	Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JellyBagBeans/CelestialHub/main/GameLoader"))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Military War Tycoon",
+	Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/0xd5f/CERBERUS/main/CERBERUS.lua", true))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Mow The Lawn!",
+	Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Mow-The-Lawn"))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Natural Disaster Survival",
+	Callback = function()
+            loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Sheep Tycoon",
+	Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/RaCc0oN1/RobloxObf/main/MainHub'))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Pet Sim X",
+	Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/roblox-scripts/main/psx.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Race Clicker",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/PlanetHubX/RaceClicker/main/source'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Strongman Similator",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/PlanetHubX/RaceClicker/main/source'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Break In",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/laerafg/laernixhax/main/main.lua'))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Mining Similator X",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Strelizia22/Strelizia/main/MS2Main.lua", true))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Muscle Legends",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/ScriptHub/main/KeySystem"))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Zombie Attack",
+	Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Welcome to Bloxburg",
+	Callback = function()
+        loadstring(game:HttpGet("https://vedrox.com/loader/merge.lua"))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Every Second You Get +1 Jump Power",
+	Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "BedWars",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Phantom Forces",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/slowpii/Phantom-Forces/main/Esp-Aimbot"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Build A Boat",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua"))()
+
+  	end    
+})
+
 Tab:AddButton({
 	Name = "Rainbow Friends",
 	Callback = function()
@@ -91,13 +322,477 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
+	Name = "Speedrun 4",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/King-Hub-v2/main/Loader.lua'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Tapping Legends X",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JellyBagBeans/CelestialHub/main/GameLoader"))() 
+  	end    
+})
+Tab:AddButton({
 	Name = "Adopt Me",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
   	end    
+    
+    
 })
+Tab:AddButton({
+	Name = "A Universal Time",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TweedLeak/Scripts/main/A-Universal-Time"))()
+  	end    
+    
+    
+})
+Tab:AddButton({
+	Name = "Demon Slayer",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/slayer/main/midnight"))()
+  	end    
+    
+    
+})
+Tab:AddButton({
+	Name = "Legends Of Speed",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Legends-of-speed"))()
+
+  	end    
+    
+    
+})
+Tab:AddButton({
+	Name = "Farm Factory Tycoon",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TweedLeak/Scripts/main/A-Universal-Time"))()
+  	end    
+    
+    
+})
+Tab:AddButton({
+	Name = "Base Battles",
+	Callback = function()
+            loadstring(game:HttpGet(("https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/Base%20Battles.lua"),true))()
+  	end    
+    
+    
+})
+Tab:AddButton({
+	Name = "Pls Donate #2",
+	Callback = function()
+            loadstring(game:HttpGet(("https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/Base%20Battles.lua"),true))()
+  	end    
+    
+    
+})
+Tab:AddButton({
+	Name = "Kick Off",
+	Callback = function()
+            loadstring(game:HttpGet(("https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/Base%20Battles.lua"),true))()
+  	end    
+    
+    
+})
+Tab:AddButton({
+	Name = "Zombie Uprising",
+	Callback = function()
+            loadstring(game:HttpGet('https://www.6footscripts.com/Scripts/6FootHub/Hub.lua'))();
+  	end    
+    
+    
+})
+Tab:AddButton({
+	Name = "One Fruit",
+	Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Loader/main/PlatiniumLoader"))()
+  	end    
+    
+    
+})
+Tab:AddButton({
+	Name = "Attack on Titan",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/XHub/main/AOTEvo.lua"))()
+  	end    
+    
+    
+})
+Tab:AddButton({
+    Name = "Breaking Point",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/animooon"))()
+      end 
+      
+      
+})
+Tab:AddButton({
+    Name = "King Legacy",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnablez/Winnable/main/Loader")){}
+      end 
+      
+      
+})
+Tab:AddButton({
+    Name = "Trident Survival",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/VenomScriptsV/ts/main/0.1", true))()
+      end 
+      
+      
+})
+Tab:AddButton({
+    Name = "RoBeats",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Introvert1337/RobloxReleases/main/Scripts/RoBeats/Autoplayer.lua"))();
+      end 
+      
+      
+})
+
 local Tab = Window:MakeTab({
-	Name = "My Discord Server!",
-	Icon = "rbxassetid://4483345998",
+	Name = "Discord",
+	Icon = "rbxassetid://7733978098",
 	PremiumOnly = false
 })
+Tab:AddButton({
+    Name = "discord.gg/wK6Mppzn",
+    Callback = function()
+      end
+})
+Tab:AddButton({
+    Name = "Support&Help nick: alissfx",
+    Callback = function()
+      end
+})
+local Tab = Window:MakeTab({
+	Name = "GUI",
+	Icon = "rbxassetid://7743867811",
+	PremiumOnly = false
+})
+Tab:AddButton({
+    Name = "Moon UI",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
+      end 
+      
+      
+})
+Tab:AddButton({
+    Name = "66niko's HUB",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/rolezeay/66nikoultimate/main/66nikoultimate"))();
+      end 
+      
+      
+})
+
+local Tab = Window:MakeTab({
+	Name = "ADMIN CMDS",
+	Icon = "rbxassetid://7733701625",
+	PremiumOnly = false
+})
+Tab:AddButton({
+    Name = "Fates Admin",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+      end 
+      
+      
+})
+Tab:AddButton({
+    Name = "Infinite Yield",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+      end 
+      
+      
+})
+Tab:AddButton({
+    Name = "Orca Admin",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
+
+      end 
+      
+      
+})
+local Tab = Window:MakeTab({
+	Name = "Player",
+	Icon = "rbxassetid://7733798851",
+	PremiumOnly = false
+})
+Tab:AddSlider({
+	Name = "Walkspeed Slider",
+	Min = 16,
+	Max = 350,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Walkspeed",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end    
+})
+
+Tab:AddSlider({
+	Name = "Jumppower Slider",
+	Min = 50,
+	Max = 350,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Jumppower",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+	end    
+})
+
+Tab:AddButton({
+	Name = "Infinite Jump (Click again to disable)",
+	Callback = function()
+        --Toggles the infinite jump between on or off on every script run
+_G.infinjump = not _G.infinjump
+
+if _G.infinJumpStarted == nil then
+	--Ensures this only runs once to save resources
+	_G.infinJumpStarted = true
+	
+	--Notifies readiness
+	game.StarterGui:SetCore("SendNotification", {Title="Alissfx's Hub"; Text="Infinite Jump Activated!"; Duration=5;})
+
+	--The actual infinite jump
+	local plr = game:GetService('Players').LocalPlayer
+	local m = plr:GetMouse()
+	m.KeyDown:connect(function(k)
+		if _G.infinjump then
+			if k:byte() == 32 then
+			humanoid = game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass('Humanoid')
+			humanoid:ChangeState('Jumping')
+			wait()
+			humanoid:ChangeState('Seated')
+			end
+		end
+	end)
+end
+   end,
+})
+Tab:AddButton({
+	Name = "Highlight Players",
+	Callback = function()
+        local Players = game:GetService("Players"):GetChildren()
+        local RunService = game:GetService("RunService")
+        local highlight = Instance.new("Highlight")
+        highlight.Name = "Highlight"
+        
+        for i, v in pairs(Players) do
+            repeat wait() until v.Character
+            if not v.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("Highlight") then
+                local highlightClone = highlight:Clone()
+                highlightClone.Adornee = v.Character
+                highlightClone.Parent = v.Character:FindFirstChild("HumanoidRootPart")
+                highlightClone.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+                highlightClone.Name = "Highlight"
+            end
+        end
+        
+        game.Players.PlayerAdded:Connect(function(player)
+            repeat wait() until player.Character
+            if not player.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("Highlight") then
+                local highlightClone = highlight:Clone()
+                highlightClone.Adornee = player.Character
+                highlightClone.Parent = player.Character:FindFirstChild("HumanoidRootPart")
+                highlightClone.Name = "Highlight"
+            end
+        end)
+        
+        game.Players.PlayerRemoving:Connect(function(playerRemoved)
+            playerRemoved.Character:FindFirstChild("HumanoidRootPart").Highlight:Destroy()
+        end)
+        
+        RunService.Heartbeat:Connect(function()
+            for i, v in pairs(Players) do
+                repeat wait() until v.Character
+                if not v.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("Highlight") then
+                    local highlightClone = highlight:Clone()
+                    highlightClone.Adornee = v.Character
+                    highlightClone.Parent = v.Character:FindFirstChild("HumanoidRootPart")
+                    highlightClone.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+                    highlightClone.Name = "Highlight"
+                    task.wait()
+                end
+        end
+        end)
+  	end    
+})
+Tab:AddButton({
+	Name = "Hitbox",
+	Callback = function()
+        game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Loaded", Text = "w = Enabled : p = disabled."})
+        local player = game.Players.LocalPlayer
+        local mouse = player:GetMouse()
+        
+        -- Settings
+        
+        bind = ""
+        bind2 = "w"
+        bind3 = "p"
+        
+        -- Script
+        
+        mouse.KeyDown:connect(function(key)
+        if key == bind then
+        player.Character.HumanoidRootPart.CFrame = CFrame.new(1254.09656, 137.906067, -172.128204)
+        end
+        end)
+        
+        mouse.KeyDown:connect(function(key2)
+        if key2 == bind2 then
+        _G.HeadSize = 17
+        _G.Disabled = true
+        
+        
+        if _G.Disabled then
+        for i,v in next, game:GetService('Players'):GetPlayers() do
+        if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+        pcall(function()
+        v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+        v.Character.HumanoidRootPart.Transparency = 0.7
+        v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Bright red")
+        v.Character.HumanoidRootPart.Material = "Neon"
+        v.Character.HumanoidRootPart.CanCollide = false
+        end)
+        end
+        end
+        end
+        end
+        end)
+        
+        mouse.KeyDown:connect(function(key3)
+        if key3 == bind3 then
+        _G.HeadSize = 17
+        _G.Disabled = true
+        
+        
+        for i,v in next, game:GetService('Players'):GetPlayers() do
+        if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+        pcall(function()
+        v.Character.HumanoidRootPart.Size = Vector3.new(2, 2, 1)
+        v.Character.HumanoidRootPart.Transparency = 1
+        v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Medium stone grey")
+        v.Character.HumanoidRootPart.Material = "Plastic"
+        v.Character.HumanoidRootPart.CanCollide = false
+        end)
+        end
+        end
+        end
+        end)
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Might be useful"
+})
+Tab:AddButton({
+	Name = "Universal FPS and Ping counter",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/FPS-Counter'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Universal Radar",
+	Callback = function()
+        --- Drawing Player Radar
+--- Made by topit
+
+_G.RadarSettings = {
+    --- Radar settings
+    RADAR_LINES = true; -- Displays distance rings + cardinal lines 
+    RADAR_LINE_DISTANCE = 50; -- The distance between each distance ring
+    RADAR_SCALE = 1; -- Controls how "zoomed in" the radar display is 
+    RADAR_RADIUS = 125; -- The size of the radar itself
+    RADAR_ROTATION = true; -- Toggles radar rotation. Looks kinda trippy when disabled
+    SMOOTH_ROT = true; -- Toggles smooth radar rotation
+    SMOOTH_ROT_AMNT = 30; -- Lower number is smoother, higher number is snappier 
+    CARDINAL_DISPLAY = true; -- Displays the four cardinal directions (north east south west) around the radar
+    
+    --- Marker settings
+    DISPLAY_OFFSCREEN = true; -- Displays offscreen / off-radar markers
+    DISPLAY_TEAMMATES = true; -- Displays markers that belong to your teammates
+    DISPLAY_TEAM_COLORS = true; -- Displays your teammates markers with either a custom color (change Team_Marker) or with that teams TeamColor (enable USE_TEAM_COLORS) 
+    DISPLAY_FRIEND_COLORS = true; -- Displays your friends markers with a custom color (Friend_Marker). This takes priority over DISPLAY_TEAM_COLORS and DISPLAY_RGB
+    DISPLAY_RGB_COLORS = false; -- Displays each marker with an RGB cycle. Takes priority over DISPLAY_TEAM_COLORS, but not DISPLAY_FRIEND_COLORS
+    MARKER_SCALE_BASE = 1.25; -- Base scale that gets applied to markers
+    MARKER_SCALE_MAX = 1.25; -- The largest scale that a marker can be
+    MARKER_SCALE_MIN = 0.75; -- The smallest scale that a marker can be
+    MARKER_FALLOFF = true; -- Affects the markers' scale depending on how far away the player is - bypasses SCALE_MIN and SCALE_MAX
+    MARKER_FALLOFF_AMNT = 125; -- How close someone has to be for falloff to start affecting them 
+    OFFSCREEN_TRANSPARENCY = 0.3; -- Transparency of offscreen markers
+    USE_FALLBACK = false; -- Enables an emergency "fallback mode" for StreamingEnabled games
+    USE_QUADS = true; -- Displays radar markers as arrows instead of dots 
+    USE_TEAM_COLORS = false; -- Uses a team's TeamColor for marker colors
+    VISIBLITY_CHECK = false; -- Makes markers that are not visible slightly transparent 
+    
+    --- Theme
+    RADAR_THEME = {
+        Outline = Color3.fromRGB(35, 35, 45); -- Radar outline
+        Background = Color3.fromRGB(25, 25, 35); -- Radar background
+        DragHandle = Color3.fromRGB(50, 50, 255); -- Drag handle 
+        
+        Cardinal_Lines = Color3.fromRGB(110, 110, 120); -- Color of the horizontal and vertical lines
+        Distance_Lines = Color3.fromRGB(65, 65, 75); -- Color of the distance rings
+        
+        Generic_Marker = Color3.fromRGB(255, 25, 115); -- Color of a player marker without a team
+        Local_Marker = Color3.fromRGB(115, 25, 255); -- Color of your marker, regardless of team
+        Team_Marker = Color3.fromRGB(25, 115, 255); -- Color of your teammates markers. Used when DISPLAY_TEAM_COLORS is disabled
+        Friend_Marker = Color3.fromRGB(25, 255, 115); -- Color of your friends markers. Used when DISPLAY_FRIEND_COLORS is enabled 
+    };
+}
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/topitbopit/stuff/main/PlayerRadar/source.lua'))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Rejoin",
+	Callback = function()
+        local ts = game:GetService("TeleportService")
+
+	local p = game:GetService("Players").LocalPlayer
+	
+	 
+	
+	ts:Teleport(game.PlaceId, p)
+  	end    
+})
+Tab:AddButton({
+	Name = "Anti AFK",
+	Callback = function()
+        local vu = game:GetService("VirtualUser")
+        game:GetService("Players").LocalPlayer.Idled:connect(function()
+           vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+           wait(1)
+           vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+        end)
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Free Gamepass",
+	Icon = "rbxassetid://7743870134",
+	PremiumOnly = false
+})
+Tab:AddButton({
+      Name = "Brookhaven Gamepasses",
+      Callback = function()
+            loadstring(game:HttpGet("https://gist.githubusercontent.com/testttbqwebg/adc0db730f5dfca0d8dbdb81f3b65391/raw/b0443888c4399af5a297cb1100a4749c65705711/qweqw", true))()
+        end 
+        
+        
+  })
